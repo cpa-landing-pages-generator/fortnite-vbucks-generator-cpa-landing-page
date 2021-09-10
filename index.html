@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="glide.core.min.css">
+    <link rel="stylesheet" href="glide.theme.css">
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <link rel="stylesheet" href="main.css">
+    <title>Fortnite Chapter 2 V-Bucks Generator</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+      <div class="row justify-content-center">
+
+        <div class="col-8 col-sm-6 col-md-4 text-center">
+
+          <img src="logo.png" class="img-fluid mb-4 mt-4">
+
+        </div>
+
+      </div>
+
+      <div class="row justify-content-center">
+
+        <div class="col-11 col-sm-9 col-md-7 text-center MAIN">
+
+          <section class="S1">
+
+            <h3 class="m-1">Type your username</h3>
+
+            <input class="form-control form-control-lg w-100 mx-auto mb-2 fs15rem" id="F-username" type="text" placeholder="Fortnite username" required>
+
+            <h3 class="mt-1 mb-0">Select your device</h3>
+
+            <div class="row justify-content-center pl-2 pr-2">
+
+              <div class="col-4 p-1 F-platform P-playstation" onclick="PLAT('playstation');">
+
+                <div class="xD">
+
+                  <img class="img-fluid w-75 pt-1 pb-1" src="playstation.png">
+
+                  <p class="mb-1 TTN LH1 pb-1 fs12rem">PlayStation</p>
+
+                </div>
+
+              </div>
+
+              <div class="col-4 p-1 F-platform P-xbox" onclick="PLAT('xbox');">
+
+                <div class="xD">
+
+                  <img class="img-fluid w-75 pt-1 pb-1" src="xbox.png">
+
+                  <p class="mb-1 TTN LH1 pb-1 fs12rem">XBOX</p>
+
+                </div>
+
+              </div>
+
+              <div class="col-4 p-1 F-platform P-switch" onclick="PLAT('switch');">
+
+                <div class="xD">
+
+                  <img class="img-fluid w-75 pt-1 pb-1" src="switch.png">
+
+                  <p class="mb-1 TTN LH1 pb-1 fs12rem">Switch</p>
+
+                </div>
+
+              </div>
+
+              <div class="col-4 p-1 F-platform P-android" onclick="PLAT('android');">
+
+                <div class="xD">
+
+                  <img class="img-fluid w-75 pt-1 pb-1" src="android.png">
+
+                  <p class="mb-1 TTN LH1 pb-1 fs12rem">Android</p>
+
+                </div>
+
+              </div>
+
+              <div class="col-4 p-1 F-platform P-apple" onclick="PLAT('apple');">
+
+                <div class="xD">
+
+                  <img class="img-fluid w-75 pt-1 pb-1" src="apple.png">
+
+                  <p class="mb-1 TTN LH1 pb-1 fs12rem">iOS</p>
+
+                </div>
+
+              </div>
+
+              <div class="col-4 p-1 F-platform P-desktop" onclick="PLAT('desktop');">
+
+                <div class="xD">
+
+                  <img class="img-fluid w-75 pt-1 pb-1" src="desktop.png">
+
+                  <p class="mb-1 TTN LH1 pb-1 fs12rem">Desktop</p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <button type="button" class="btn btn-lg btn-warning w-100 mt-2 TTU C-button fs2rem" onclick="CCC();">Continue</button>
+
+          </section>
+
+          <section class="S2">
+
+            <h3>Select how much free V-Bucks you want</h3>
+
+            <div class="row justify-content-center">
+
+              <div class="col-6 p-1 V-bucks V-1000" onclick="VB('1000');">
+
+                <div class="xD">
+
+                  <img class="img-fluid pt-1 pb-1" src="1.png">
+
+                  <p class="mb-1 TTN LH1 pb-1 fs13rem">1000 V-Bucks</p>
+
+                </div>
+
+              </div>
+
+              <div class="col-6 p-1 V-bucks V-2800" onclick="VB('2800');">
+
+                <div class="xD">
+
+                  <img class="img-fluid pt-1 pb-1" src="2.png">
+
+                  <p class="mb-1 TTN LH1 pb-1 fs13rem">2800 V-Bucks</p>
+
+                </div>
+
+              </div>
+
+              <div class="col-6 p-1 V-bucks V-7500" onclick="VB('7500');">
+
+                <div class="xD">
+
+                  <img class="img-fluid pt-1 pb-1" src="3.png">
+
+                  <p class="mb-1 TTN LH1 pb-1 fs13rem">7500 V-Bucks</p>
+
+                </div>
+
+              </div>
+
+              <div class="col-6 p-1 V-bucks V-13500" onclick="VB('13500');">
+
+                <div class="xD">
+
+                  <img class="img-fluid pt-1 pb-1" src="4.png">
+
+                  <p class="mb-1 TTN LH1 pb-1 fs13rem">13500 V-Bucks</p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <button type="button" class="btn btn-lg btn-warning w-100 mt-2 TTU S-button fs2rem" onclick="SKIN();">Continue</button>
+
+          </section>
+
+          <section class="S3">
+
+            <h3 class="m-1">Select your new skin</h3>
+
+            <div class="glide">
+
+              <div class="glide__track" data-glide-el="track">
+
+                <ul class="glide__slides">
+
+                  <li class="glide__slide">
+
+                    <img class="img-fluid w-60" src="8BALL.png">
+                    <h2 class="m-0 FNB TTN">8-Ball <small class="fs50 epic p-1">EPIC</small></h2>
+                    <h4 class="TTN FNB mb-0">Rack 'em up!</h4>
+
+                  </li>
+
+                  <li class="glide__slide">
+
+                    <img class="img-fluid w-60" src="RIPPLEY.png">
+                    <h2 class="m-0 FNB TTN">Rippley <small class="fs50 epic p-1">RARE</small></h2>
+                    <h4 class="TTN FNB mb-0">Drippy and dangerous.</h4>
+
+                  </li>
+
+                  <li class="glide__slide">
+
+                    <img class="img-fluid w-60" src="CAMEO.png">
+                    <h2 class="m-0 FNB TTN">Cameo <small class="fs50 rare p-1">EPIC</small></h2>
+                    <h4 class="TTN FNB mb-0">Make your appearance.</h4>
+
+                  </li>
+
+                  <li class="glide__slide">
+
+                    <img class="img-fluid w-60" src="FUSION.png">
+                    <h2 class="m-0 FNB TTN">Fusion <small class="fs50 rare p-1">EPIC</small></h2>
+                    <h4 class="TTN FNB mb-0">Merged into one.</h4>
+
+                  </li>
+
+                </ul>
+
+              </div>
+
+              <div class="glide__arrows" data-glide-el="controls">
+               <button class="glide__arrow glide__arrow--left pl-3 pr-3 pb-1 pt-2" data-glide-dir="<"><</button>
+               <button class="glide__arrow glide__arrow--right pl-3 pr-3 pb-1 pt-2" data-glide-dir=">">></button>
+             </div>
+
+            </div>
+
+            <button type="button" class="btn btn-lg btn-warning w-100 mt-2 TTU F-button fs2rem" onclick="FIN();">Continue</button>
+
+          </section>
+
+          <section class="S4">
+
+            <h3 class="m-1">Finishing process</h3>
+
+            <div class="console-1">
+
+              <div class="console-2 fs13rem"></div>
+
+            </div>
+
+           <a id="verify-button" href="REPLACE YOUR CONTENT LOCKER URL HERE"> <button type="button" class="btn btn-lg btn-warning w-100 mt-2 TTU CL-button fs2rem">Verify</button> </a>
+
+          </section>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="glide.min.js"></script>
+    <script src="typed.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

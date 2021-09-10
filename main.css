@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'Fortnite-Black';
+    src: url('BurbankBigRegular-Black.woff2') format('woff2'),
+        url('BurbankBigRegular-Black.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fortnite-Bold';
+    src: url('BurbankBigRegular-Bold.woff2') format('woff2'),
+        url('BurbankBigRegular-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fortnite-Medium';
+    src: url('BurbankBigRegular-Medium.woff2') format('woff2'),
+        url('BurbankBigRegular-Medium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.FNB { font-family: 'Fortnite-Bold' !important; }
+
+.fs50 { font-size: 50% !important; }
+
+small { vertical-align: text-top; }
+
+.epic { color: white !important; background-color: #bd3ffa; border-radius: 0.5rem; }
+
+.rare { color: white !important; background-color: #2fd5e8; border-radius: 0.5rem; }
+
+button {
+  border: 1px solid rgba(0, 0, 0, 0.25) !important;
+  font-size: 1.75rem !important;
+}
+
+.w-60 { width: 60% !important; }
+
+button, .btn, .C-button, .S-button {
+  transition-duration: 1s !important;
+}
+
+.S2, .S3, .S4 {
+  display: none;
+}
+
+.S3 {
+  flex-direction: column;
+}
+
+.console-1 {
+  height: 0;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+}
+
+.console-2 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #33ff33;
+  background-color: #282828;
+  font-family: "Fortnite-Bold";
+  font-size: 1.1rem;
+  padding: 0.75rem;
+}
+
+.progress-bar {
+  background: black;
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+.progress {
+  border-radius: 0;
+}
+
+u { display: contents; }
+
+.fs1rem { font-size: 1rem !important; }
+
+.fs11rem { font-size: 1.1rem !important; }
+
+.fs12rem { font-size: 1.2rem !important; }
+
+.fs13rem { font-size: 1.3rem !important; }
+
+.fs14rem { font-size: 1.4rem !important; }
+
+.fs15rem { font-size: 1.5rem !important; }
+
+.fs2rem { font-size: 2rem !important;}
+
+.glide__slides {
+  margin-bottom: 0 !important;
+}
+
+.F-button {
+  cursor: pointer;
+  background: rgb(252,161,32);
+  background: linear-gradient(180deg, rgba(252,161,32,1) 0%, rgba(253,213,47,1) 100%);
+}
+
+.CL-button {
+  display: none;
+  cursor: pointer;
+  background: rgb(252,161,32);
+  background: linear-gradient(180deg, rgba(252,161,32,1) 0%, rgba(253,213,47,1) 100%);
+}
+
+.C-button, .S-button {
+  cursor: pointer;
+  background: rgb(252,161,32);
+  background: linear-gradient(180deg, rgba(252,161,32,1) 0%, rgba(253,213,47,1) 100%);
+  opacity: 0.5;
+}
+
+body {
+  background: url(bg.jpg) center/cover no-repeat fixed;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Fortnite-Black";
+  text-transform: uppercase;
+  color: black;
+}
+
+input {
+  border: 1px solid rgba(0, 0, 0, 0.25) !important;
+}
+
+input, p {
+  font-family: "Fortnite-Bold";
+  text-align: center !important;
+  text-align-last: center !important;
+}
+
+.F-platform, .V-bucks {
+  opacity: 0.5;
+  transition-duration: 1s;
+}
+
+.xD {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background-color: red;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: rgb(252,161,32);
+  background: linear-gradient(180deg, rgba(252,161,32,1) 0%, rgba(253,213,47,1) 100%);
+}
+
+.LH1 { line-height: 1 !important; }
+
+.TTN { text-transform: none !important; }
+
+.TTU { text-transform: uppercase !important; }
+
+.MAIN {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: url(pattern.jpg) center/cover no-repeat fixed;
+  border-radius: 0.5rem;
+}
+
+.svg-playstation, .svg-xbox, .svg-switch, .svg-android, .svg-apple, .svg-windows, .svg-desktop {
+  max-height: 4rem;
+}
+
+@media (min-width: 768px) {
+
+  .w-60 { width: 37.5% !important; }
+
+  .console-2 { padding: 2rem !important; }
+
+  .w-75 { width: 50% !important; }
+
+  .fs12rem { font-size: 1.7rem !important; }
+
+  h3 { font-size: 2.25rem !important; }
+
+  .fs15rem { font-size: 2rem !important; }
+
+  .fs13rem { font-size: 1.8rem !important; }
+
+  .fs2rem { font-size: 2.5rem !important; }
+
+}
